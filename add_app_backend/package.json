@@ -1,0 +1,27 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for heroku",
+  "author": "Satyendra Tiwari",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "heroku-postbuild": "npm run build"
+  },
+  "engines": {
+    "npm": "6.14.8",
+    "node": "14"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "tedious": "^12.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
